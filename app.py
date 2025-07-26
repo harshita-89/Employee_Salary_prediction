@@ -29,7 +29,7 @@ with col1:
 with col2:
     education = st.selectbox("🎓 Education Level", education_list)
 
-experience = st.slider("💼 Years of Professional Coding Experience", 0.0, 50.0, 1.0)
+experience = st.slider("💼 Years of Professional Coding Experience", 0, 50, 1)
 
 # Predict
 if st.button("Predict Salary"):
